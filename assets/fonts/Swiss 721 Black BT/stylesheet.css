@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Swis721 Blk BT';
+    src: url('Swiss721BT-Black.woff2') format('woff2'),
+        url('Swiss721BT-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
