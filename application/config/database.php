@@ -4,10 +4,10 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 switch ($_SERVER['SERVER_NAME']) {
-    case 'www.silvic.co':
-    case 'silvic.co':
-    case 'https://www.silvic.co':
-    case 'https://silvic.co':
+    case 'www.silvicswoodveneers.com':
+    case 'silvicswoodveneers.com':
+    case 'https://www.silvicswoodveneers.com':
+    case 'https://silvicswoodveneers.com':
         $db['default'] = array(
             'dsn'   => '',
             'hostname' => 'localhost',
