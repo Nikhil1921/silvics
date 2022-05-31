@@ -89,7 +89,7 @@ class Gallery extends Admin_controller  {
         }else{
             $img = '';
 
-            if($id === 0 && $this->input->post('g_type') !== 'Videos'){
+            if($id === 0){
                 $image = $this->uploadImage('image');
                 if ($image['error'] == TRUE){
                     $this->session->set_flashdata('error', $image["message"]);
@@ -166,10 +166,9 @@ class Gallery extends Admin_controller  {
         [
             'field' => 'video_id',
             'label' => 'Youtube Video ID',
-            'rules' => 'max_length[100]|callback_video_check|alpha_numeric|trim',
+            'rules' => 'max_length[100]|callback_video_check|trim',
             'errors' => [
                 'max_length' => "Max 100 chars allowed.",
-                'alpha_numeric' => "%s is invalid",
             ],
         ]
     ];

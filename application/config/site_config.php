@@ -33,7 +33,7 @@ $config['contacts'] = [
         'contacts' => ['+91 9925239889']
     ],
     [
-        'name' => 'Mr. Viven Bovad',
+        'name' => 'Mr. Viren Borad',
         'contacts' => ['+91 9913015712']
     ],
     [
