@@ -1,15 +1,15 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <!--Main Slider-->
-<section class="main-slider">
+<!-- <section class="main-slider">
     <div id="carousel-banners" class="carousel slide" data-ride="carousel" data-interval="2000">
-        <!-- Indicators -->
+        
         <ol class="carousel-indicators">
             <?php foreach($banners as $k => $banner): ?>
             <li data-target="#carousel-banners" data-slide-to="<?= $k ?>" <?= $k === 0 ? 'class="active"' : '' ?>></li>
             <?php endforeach ?>
         </ol>
 
-        <!-- Wrapper for slides -->
+
         <div class="carousel-inner" role="listbox">
             <?php foreach($banners as $k => $banner): ?>
             <div class="item <?= $k === 0 ? 'active' : 'after' ?>">
@@ -18,7 +18,7 @@
             <?php endforeach ?>
         </div>
 
-        <!-- Controls -->
+        
         <a class="left carousel-control" href="#carousel-banners" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -28,7 +28,71 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-</section>
+</section> -->
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="5000">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <img src="assets/images/slider/1.png" alt="">
+    </div>
+    <div class="item after">
+        <img src="assets/images/slider/2.jpg" alt="">
+      <div class="carousel-caption d-none d-md-block" data-aos="fade-right">
+        <h5 class="slider2_h5">NATURE AT IT'S BEST FOR</h5>
+        <h5 class="slider2_h5">SUMPTUOUS LIVING</h5>
+      </div>
+    </div>
+    <div class="item after">
+        <img src="assets/images/slider/3.jpg" alt="">
+      <div class="carousel-caption d-none d-md-block" data-aos="fade-left">
+        <h5 class="slider3_h5">GIVEN</h5>
+        <p class="slider3_p">by nature</p>
+      </div>
+    </div>
+    <div class="item after">
+        <img src="assets/images/slider/4.jpg" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="slider4_h5">CRAFTED</h5>
+        <p class="slider4_p">by experts</p>
+      </div>
+    </div>
+    <div class="item after">
+        <img src="assets/images/slider/5.jpg" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="slider5_h5">PROFOUNDLY</h5>
+        <p class="slider5_p">experienced in veneer innovation</p>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+
+	
 <!--End Main Slider-->
 
 <!-- About Us -->

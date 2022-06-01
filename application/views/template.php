@@ -12,6 +12,8 @@
         <?= link_tag('assets/css/style.css', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/responsive.css', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/color-themes/default-theme.css', 'stylesheet', 'text/css') ?>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     </head>
     <body>
         <div class="page-wrapper">
@@ -108,7 +110,7 @@
                     <div class="auto-container clearfix">
                         <!--Logo-->
                         <div class="logo pull-left">
-                            <?= anchor('', img('assets/images/silvics-small.png'), 'class="img-responsive"'); ?>
+                            <?= anchor('', img('assets/images/logo.png'), 'class="img-responsive"'); ?>
                         </div>
                         <!--Right Col-->
                         <div class="right-col pull-right">
@@ -190,7 +192,7 @@
                                             <li><a href="<?= $this->config->item('facebook') ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                             <li><a href="<?= $this->config->item('twitter') ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                             <li><a href="<?= $this->config->item('linkedin') ?>" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                            <li><a href="<?= $this->config->item('google-plus') ?>" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href="<?= $this->config->item('youtube') ?>" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
                                             <li><a href="<?= $this->config->item('pinterest') ?>" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
                                         </ul>
                                     </div>
@@ -300,5 +302,11 @@
         <!-- Modal End -->
         <?php endif  ?>
         <?= script("assets/js/custom.js") ?>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1200,
+                })
+        </script>
     </body>
 </html>

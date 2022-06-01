@@ -195,3 +195,8 @@ if ($(".scroll-to-target").length) {
         }, 1000);
     });
 }
+
+
+
+
+
