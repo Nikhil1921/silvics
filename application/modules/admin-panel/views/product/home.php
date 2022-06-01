@@ -15,6 +15,8 @@
                     <th class="target">SR. NO.</th>
                     <th>name</th>
                     <th>code</th>
+                    <th>Group No</th>
+                    <th>Lot Size</th>
                     <th>rate</th>
                     <th>stock</th>
                     <th>status</th>

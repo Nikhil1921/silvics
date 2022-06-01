@@ -27,7 +27,7 @@ class Product extends Admin_controller  {
 
     public function get()
     {
-        check_ajax();
+       check_ajax();
         $this->load->model('Product_model', 'data');
         
         $fetch_data = $this->data->make_datatables();
@@ -40,10 +40,13 @@ class Product extends Admin_controller  {
             $sub_array[] = $sr;
             $sub_array[] = $row->p_name;
             $sub_array[] = $row->p_code;
+            $sub_array[] = $row->group_no;
+            $sub_array[] = $row->lat_size;
             $sub_array[] = $row->rate;
             $sub_array[] = $row->stock;
             $sub_array[] = $row->status;
             $sub_array[] = $row->c_name;
+
 
             $action = '<div class="dropdown">
                           <button type="button" class="btn btn-round btn-outline-info dropdown-toggle btn-sm" data-toggle="dropdown" aria-expanded="false">
@@ -85,7 +88,7 @@ class Product extends Admin_controller  {
         $data['url'] = $this->redirect;
         $data['image'] = true;
 
-        if($id !== 0) $data['data'] = $this->main->get($this->table, 'p_name, p_code, rate, stock, status, is_tranding, slug, image, cat_id', ['id' => d_id($id)]);
+        if($id !== 0) $data['data'] = $this->main->get($this->table, 'p_name,group_no,lat_size, p_code, rate, stock, status, is_tranding, slug, image, cat_id', ['id' => d_id($id)]);
         
         if ($this->form_validation->run() == FALSE)
         {
@@ -115,6 +118,10 @@ class Product extends Admin_controller  {
             $post = [
                 'p_name'       => $this->input->post('p_name'),
                 'p_code'       => $this->input->post('p_code'),
+
+                'group_no'       => $this->input->post('group_no'),
+                'lat_size'       => $this->input->post('lat_size'),
+
                 'rate'         => $this->input->post('rate'),
                 'stock'        => $this->input->post('stock'),
                 'status'       => $this->input->post('status'),

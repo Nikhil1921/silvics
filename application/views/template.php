@@ -38,7 +38,7 @@
                                 <ul class="social-icon-one">
                                     <li><a href="<?= $this->config->item('facebook') ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="<?= $this->config->item('twitter') ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="<?= $this->config->item('google-plus') ?>" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="<?= $this->config->item('youtube') ?>" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
                                     <li><a href="<?= $this->config->item('pinterest') ?>" target="_blank"><i class="fa fa-pinterest"></i></a></li>
                                     <li><a href="<?= $this->config->item('dribbble') ?>" target="_blank"><i class="fa fa-dribbble"></i></a></li>
                                 </ul>

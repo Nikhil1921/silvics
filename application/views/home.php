@@ -145,14 +145,23 @@
                             <h3>Start inquiry</h3>
                             <form method="post" id="contact-form">
                                 <div class="form-group">
-                                    <input type="text" name="name" maxlength="100" placeholder="Name" required="">
+                                    <input type="text" name="name" maxlength="100" placeholder="Your Company Name " required="">
                                 </div>
+
+                                <div class="form-group">
+                                    <input type="text" name="person_name" maxlength="100" placeholder="Contact Person Name " required="">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" name="mobile" maxlength="10" minlength="10" placeholder="Mobile" required="">
+                                </div>
+
                                 <div class="form-group">
                                     <input type="email" name="email" maxlength="100" placeholder="Email" required="">
                                 </div>
-                                <div class="form-group">
+                                <!-- <div class="form-group">
                                     <input type="text" name="subject" maxlength="100" placeholder="Subject" required="">
-                                </div>
+                                </div> -->
                                 <div class="form-group">
                                     <textarea name="message" maxlength="255" placeholder="Your Message" required=""></textarea>
                                 </div>

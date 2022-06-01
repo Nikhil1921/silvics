@@ -8,7 +8,8 @@ class Home extends Public_controller {
 			$post = [
 				'name' => $this->input->post('name'),
 				'email' => $this->input->post('email'),
-				'subject' => $this->input->post('subject'),
+				'person_name' => $this->input->post('person_name'),
+				'mobile' => $this->input->post('mobile'),
 				'message' => $this->input->post('message'),
 				'prod_id' => 0,
 			];
@@ -72,6 +73,7 @@ class Home extends Public_controller {
 		
 		if($prod){
 			if($this->input->is_ajax_request() && $this->input->server('REQUEST_METHOD') === "POST"):
+
 				$post = [
 					'name' => $this->input->post('name'),
 					'email' => $this->input->post('email'),
@@ -91,8 +93,10 @@ class Home extends Public_controller {
 			else:
 				$data['title'] = $prod->p_name;
 				$data['bread'] = $prod->p_name;
+				$data['group_no'] = $prod->group_no;
+				$data['lat_size'] = $prod->lat_size;
 				$data['prod'] = $prod;
-				$data['prods'] = $this->main->getAll('products', 'p_name, slug, CONCAT("'.$this->config->item('products').'", image) image', ['is_deleted' => 0, 'cat_id' => $prod->cat_id, 'id != ' => $prod->id]);
+				$data['prods'] = $this->main->getAll('products','p_name,group_no,lat_size, slug, CONCAT("'.$this->config->item('products').'", image) image', ['is_deleted' => 0, 'cat_id' => $prod->cat_id, 'id != ' => $prod->id]);
 				$data['validate'] = true;
 				
 				return $this->template->load('template', "product", $data);

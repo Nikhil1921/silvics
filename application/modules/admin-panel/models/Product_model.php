@@ -6,9 +6,9 @@
 class Product_model extends MY_Model
 {
 	public $table = "products p";
-	public $select_column = ['p.id', 'p.p_name', 'p.p_code', 'p.rate', 'p.stock', 'p.status', 'c.c_name'];
-	public $search_column = ['p.p_name', 'p.p_code', 'p.rate', 'p.stock', 'p.status', 'c.c_name'];
-    public $order_column = [null, 'p.p_name', 'p.p_code', 'p.rate', 'p.stock', 'p.status', 'c.c_name', null];
+	public $select_column = ['p.id', 'p.p_name', 'p.p_code', 'p.group_no', 'p.lat_size','p.rate', 'p.stock', 'p.status', 'c.c_name'];
+	public $search_column = ['p.p_name',  'p.p_code','p.group_no', 'p.lat_size', 'p.rate', 'p.stock', 'p.status', 'c.c_name'];
+    public $order_column = [null, 'p.p_name', 'p.p_code','p.group_no', 'p.lat_size', 'p.rate', 'p.stock', 'p.status', 'c.c_name', null];
 	public $order = ['p.id' => 'DESC'];
 
 	public function make_query()
@@ -33,7 +33,7 @@ class Product_model extends MY_Model
 
 	public function getProd($c_slug, $p_slug)
 	{
-		$this->db->select('p.id, p.p_name, p.p_code, p.rate, p.stock, p.status, c.slug, CONCAT("'.$this->config->item('products').'", p.image) image, p.cat_id')
+		$this->db->select('p.id, p.p_name, p.p_code,p.group_no, p.lat_size, p.rate, p.stock, p.status, c.slug, CONCAT("'.$this->config->item('products').'", p.image) image, p.cat_id')
 		         ->from($this->table)
 				 ->where(['c.is_deleted' => 0, 'p.is_deleted' => 0])
 				 ->where(['c.slug' => $c_slug, 'p.slug' => $p_slug])

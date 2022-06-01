@@ -19,10 +19,21 @@
                                            <i class="fa fa-rupee"></i> <?= $prod->rate ?>
                                         </div>
                                     </div>
+
+                                  
                                     <div>
-                                        <p class="tit_product"><strong class="title_product">Code :</strong> <?= $prod->p_code ?></p>
+
+
+                                        <p class="tit_product"><strong class="title_product">Group No :</strong> <?php  if($prod->group_no == ""){echo "&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;";
+} else { echo $prod->group_no; }?>
+
+                                        <p class="tit_product"><strong class="title_product">Lot Size :</strong> <?php  if($prod->lat_size == ""){echo "&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;";
+} else {echo $prod->lat_size; }?>
                                         <p class="tit_product"><strong class="title_product">Stock :</strong> <?= $prod->stock ?></p>
                                         <p class="tit_product"><strong class="title_product">Status :</strong> <?= $prod->status ?></p>
+                                        <p class="tit_product"><strong class="title_product">Code :</strong> <?= $prod->p_code ?></p>
+                                       
+            
                                     </div>
                                     <div class="clearfix mt-5">
                                         <button type="button" class="theme-btn btn-style-two" data-toggle="modal" data-target="#prodModal">Get Quate</button>

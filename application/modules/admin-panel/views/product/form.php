@@ -32,6 +32,7 @@
                         <?= form_error('p_code') ?>
                     </div>
                 </div>
+
                 <div class="col-md-6">
                     <div class="form-group">
                         <?= form_label('Name', 'p_name', 'class="col-form-label"') ?>
@@ -61,6 +62,34 @@
                             'value' => set_value('slug') ? set_value('slug') : (isset($data['slug']) ? $data['slug'] : '')
                         ]); ?>
                         <?= form_error('slug') ?>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <?= form_label('Group No', 'group_no', 'class="col-form-label"') ?>
+                        <?= form_input([
+                            'class' => "form-control",
+                            'id' => "group_no",
+                            'name' => "group_no",
+                            'maxlength' => 20,
+                            //'required' => "",
+                            'value' => set_value('group_no') ? set_value('group_no') : (isset($data['group_no']) ? $data['group_no'] : '')
+                        ]); ?>
+                        <?= form_error('group_no') ?>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <?= form_label('Lot Size', 'lat_size', 'class="col-form-label"') ?>
+                        <?= form_input([
+                            'class' => "form-control",
+                            'id' => "lat_size",
+                            'name' => "lat_size",
+                            'maxlength' => 20,
+                           // 'required' => "",
+                            'value' => set_value('lat_size') ? set_value('lat_size') : (isset($data['lat_size']) ? $data['lat_size'] : '')
+                        ]); ?>
+                        <?= form_error('lat_size') ?>
                     </div>
                 </div>
                 <div class="col-md-6">
