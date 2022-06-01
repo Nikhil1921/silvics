@@ -10,7 +10,7 @@ $config['tutorials'] = 'uploads/tutorials/';
 
 $config['facebook'] = 'https://facebook.com/';
 $config['twitter'] = 'https://twitter.com/';
-$config['google-plus'] = 'https://google-plus.com/';
+$config['youtube'] = 'https://youtube.com/';
 $config['pinterest'] = 'https://pinterest.com/';
 $config['dribbble'] = 'https://dribbble.com/';
 $config['linkedin'] = 'https://linkedin.com/';
