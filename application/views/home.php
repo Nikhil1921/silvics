@@ -30,7 +30,7 @@
     </div>
 </section> -->
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="5000">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="4000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
