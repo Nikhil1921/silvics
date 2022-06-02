@@ -108,13 +108,23 @@
                     </div>
                     <div class="text1">SILVICS veneer is a unique material sliced from logs that is influenced by an individual tree’s reaction to its soil composition, geographic location and other growing conditions throughout the duration of its growth. The intrinsic
                         patterns and markings in natural veneers aren’t altered or enhanced in any way, making each natural veneer from a tree an individual work of art.Natural wood veneer covers three most influence things which is ...</div>
-                    <ul>
+                    <ul class="text-center list-style">
                         <li><strong>Gives Royal look to your furniture</strong></li>
                         <li><strong>Gives natural touch to your furniture</strong></li>
                         <li><strong>Gives  variety of textures for your furniture</strong></li>
                     </ul>
-                    <div class="text">and SILVICS give you creative products Because <strong>"CREATIVITY IS RUNS IN OUR BLOOD".</strong></div>
-                    <div class="link-box">For More Details <?= anchor('about', "Click Here!"); ?></div>
+                    <div class="text-center">
+                        &
+                    </div>
+                    <div class="text-center">
+                    <strong>SILVICS</strong> give you creative
+                    </div>
+                    <div class="text-center">
+                    products Because
+                    </div>
+                    
+                    <div class="text text-ce"><strong>"CREATIVITY IS RUNS IN OUR BLOOD".</strong></div>
+                    <div class="link-box text-center">For More Details <?= anchor('about', "Click Here!"); ?></div>
                 </div>
             </div>
             <!-- Video Column -->

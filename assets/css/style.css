@@ -8076,9 +8076,9 @@ transition: visibility .5s;
     margin-bottom: 15px;
 }
 
-.inner-column ul li {
+/* .inner-column ul li {
     list-style: disc;
-}
+} */
 
 .text1 {
 	position: relative;
@@ -8330,3 +8330,11 @@ th {
 	  opacity: 1;
 	}
   }
+
+.text-ce {
+    text-align: center !important;
+}
+
+.info-column p {
+    text-align: justify;
+}
