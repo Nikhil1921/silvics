@@ -8296,6 +8296,7 @@ th {
     font-size: 65px;
     font-weight: 700;
 	left: -235px;
+	animation: fadeInLeft 2s ease-in-out;
 }
 
 .slider5_p {
@@ -8305,6 +8306,7 @@ th {
     line-height: 0;
     right: -113px;
     top: -8px;
+	animation: fadeInRight 2s ease-in-out;
 }
 
 
