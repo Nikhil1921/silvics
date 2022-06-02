@@ -12,7 +12,6 @@
         <?= link_tag('assets/css/style.css', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/responsive.css', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/color-themes/default-theme.css', 'stylesheet', 'text/css') ?>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     </head>
     <body>
@@ -302,11 +301,6 @@
         <!-- Modal End -->
         <?php endif  ?>
         <?= script("assets/js/custom.js") ?>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                duration: 1200,
-                })
-        </script>
+        
     </body>
 </html>
