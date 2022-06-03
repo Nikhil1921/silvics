@@ -20,8 +20,8 @@ $config['mobile1'] = '+91 98257 15712';
 $config['mobile2'] = '+91 70690 70928';
 $config['mobile3'] = '+919265314870';
 $config['email'] = 'silvicswoodveeners@gmail.com';
-$config['address1'] = 'Plot No 3, Block no 813/2, Nr. Raja Tyre Lane, Village : Rakanpur, Santej. Ahmedabad, India';
-$config['address2'] = 'Survey No. 447,Village : Borisana, Kadi - Thor Highway Road, Near Bhargav Oil industries, Borisana, Ta-Kadi, Dist-Mehsana';
+$config['address1'] = 'Plot No 3, Block No. 813/2,<br>At. : Rakanpur, Ta. : Kalol, Dist. : Gandhinagar<br> Ahmedabad, Gujarat, India - 382721.';
+$config['address2'] = 'Survey No. - 447 At. : Borisana,<br> Nr. Bhargav Oil Industries,<br>Kadi - Thor Highway Road,<br>Borisana, Ta. : Kadi, Dist. : Mahsana.';
 
 $config['contacts'] = [
     [

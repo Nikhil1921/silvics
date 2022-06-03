@@ -43,6 +43,21 @@
                 <div class="inner-column">
                     <ul class="contact-info">
                         <li>
+                            <span class="icon flaticon-phone-1"></span>
+                            <strong>Have Any Question</strong>
+                            <p>
+                                <a href="tel:<?= $this->config->item('mobile1') ?>"><?= $this->config->item('mobile1') ?></a><br>
+                                <a href="tel:<?= $this->config->item('mobile2') ?>"><?= $this->config->item('mobile2') ?></a>
+                            </p>
+                        </li>
+
+                        <li>
+                            <span class="icon flaticon-mail"></span>
+                            <strong>Send your mail at</strong>
+                            <p><a href="mailto:<?= $this->config->item('email') ?>"><?= $this->config->item('email') ?></a></p>
+                        </li>
+
+                        <li>
                             <span class="icon flaticon-home"></span>
                             <strong>Corporate Office</strong>
                             <p><?= $this->config->item('address1') ?></p>
@@ -52,20 +67,6 @@
                             <span class="icon flaticon-home"></span>
                             <strong>Manufacturing Unit</strong>
                             <p><?= $this->config->item('address2') ?></p>
-                        </li>
-
-                        <li>
-                            <span class="icon flaticon-mail"></span>
-                            <strong>Send your mail at</strong>
-                            <p><a href="mailto:<?= $this->config->item('email') ?>"><?= $this->config->item('email') ?></a></p>
-                        </li>
-                        <li>
-                            <span class="icon flaticon-phone-1"></span>
-                            <strong>Have Any Question</strong>
-                            <p>
-                                <a href="tel:<?= $this->config->item('mobile1') ?>"><?= $this->config->item('mobile1') ?></a><br>
-                                <a href="tel:<?= $this->config->item('mobile2') ?>"><?= $this->config->item('mobile2') ?></a>
-                            </p>
                         </li>
                     </ul>
                 </div>
