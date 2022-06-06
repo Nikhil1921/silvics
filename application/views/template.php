@@ -9,7 +9,7 @@
         <?= link_tag('assets/images/favicon.png', 'shortcut icon', 'image/png') ?>
         <?= link_tag('assets/images/favicon.png', 'icon', 'image/png') ?>
         <?= link_tag('assets/css/bootstrap.css', 'stylesheet', 'text/css') ?>
-        <?= link_tag('assets/css/style.css', 'stylesheet', 'text/css') ?>
+        <?= link_tag('assets/css/style.css?v=1.0.6', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/responsive.css', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/color-themes/default-theme.css', 'stylesheet', 'text/css') ?>
 
@@ -178,7 +178,7 @@
                     <!--Widgets Section-->
                     <div class="widgets-section">
                         <div class="row">
-                            <div class="col-lg-5">
+                            <div class="col-lg-4">
                                 <div class="footer-widget about-widget">
                                     <div class="footer-logo">
                                         <figure>
@@ -228,15 +228,30 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-5">
                                 <div class="footer-widget contact-widget">
                                     <h2 class="widget-title">Contact us</h2>
+                                    
                                     <div class="widget-content">
                                         <ul class="contact-list">
-                                            <li><span class="fa fa-volume-control-phone clr_white"></span><?= $this->config->item('mobile1') ?></li>
+                                            <li><span class="fa fa-volume-control-phone fa-lg clr_white"></span><?= $this->config->item('mobile1') ?></li>
                                             <li><span class="fa fa-envelope clr_white"></span><a href="mailto:<?= $this->config->item('email') ?>"><?= $this->config->item('email') ?></a></li>
-                                            <li><span class="fa fa-map-marker clr_white"></span><?= $this->config->item('address1') ?></li>
-                                            <li><span class="fa fa-map-marker clr_white"></span><?= $this->config->item('address2') ?></li>
+                                            <li>
+                                                <div class="main">
+                                                    <div class="left-contect"><span class="fa fa-map-marker clr_white fa-lg"></span></div>
+                                                    <div class="left-contect">
+                                                    <?= $this->config->item('address1') ?>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="main">
+                                                    <div class="left-contect"><span class="fa fa-map-marker clr_white fa-lg"></span></div>
+                                                    <div class="left-contect">
+                                                    <?= $this->config->item('address2') ?>
+                                                    </div>
+                                                </div>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

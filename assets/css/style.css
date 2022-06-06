@@ -83,6 +83,33 @@
     font-display: swap;
 }
 
+@font-face {
+	font-family: 'Calibri';
+	src: url('font/calibri/Calibri-Bold.woff2') format('woff2'),
+		url('font/calibri/Calibri-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('font/calibri/Calibri-BoldItalic.woff2') format('woff2'),
+		url('font/calibri/Calibri-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('font/calibri/Calibri-Italic.woff2') format('woff2'),
+		url('font/calibri/Calibri-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
 
 
 
@@ -2458,7 +2485,8 @@ img{
 .service-sidebar .link-box a{
 	display: block;
 	font-size: 18px;
-	color: #333333;
+	color: #ffffff;
+	background: #333333;
 	line-height: 30px;
 	padding: 19px 65px;
 	border:1px solid #cccccc;
@@ -4729,6 +4757,13 @@ img{
 
 .main-footer .contact-list{
 	margin-bottom: 40px;
+	font-family: 'Calibri';
+	font-weight: 600;
+}
+
+.inner-column {
+    font-family: 'Calibri';
+    font-weight: 600;
 }
 
 .main-footer .contact-list li {
@@ -8015,18 +8050,13 @@ transition: visibility .5s;
 
 .title_detail h2 {
     font-size: 40px;
+    border-bottom: 4px solid #591609;
+    width: fit-content;
+	color: #222222;
+	margin-bottom: 40px;
 }
 
-.title_detail h2:before {
-    position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 3px;
-	width: 116px;
-	background-color: #591609;
-	content: "";
-	display: inline-block;
-}
+
 
 .margin-top {
     margin-top: 35px;
@@ -8036,20 +8066,13 @@ transition: visibility .5s;
 
 .head-detail {
     font-size: 40px;
-    color: #222222;
-    margin-bottom: 25px;
+    border-bottom: 4px solid #591609;
+    width: fit-content;
+	color: #222222;
+	margin-bottom: 40px;
 }
 
-.head-detail:before {
-    position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 3px;
-	width: 351px;
-	background-color: #591609;
-	content: "";
-	display: inline-block;
-}
+
 
 .review {
     position: relative;
@@ -8716,3 +8739,11 @@ th {
 		animation: fadeInRight 2s ease-in-out;
 	}
   }
+
+
+.main {
+    float: left;
+    width: 100%;
+    display: flex;
+	margin-top: 13px;
+}

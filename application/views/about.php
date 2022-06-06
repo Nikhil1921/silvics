@@ -18,7 +18,7 @@
             <div class="video-column col-md-6 col-sm-12 col-xs-12">
                 <div class="inner-column">
                     <figure class="image">
-                        <?= img('assets/images/Silvics Team.jpeg') ?>
+                        <?= img('assets/images/about-us.jpg') ?>
                     </figure>
                 </div>
             </div>

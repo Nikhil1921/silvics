@@ -8,7 +8,7 @@
                     <aside class="sidebar service-sidebar">
                         <div class="sidebar-widget download-links">
                             <div class="link-box">
-                                <?= anchor($tut['t_pdf'], '<span class="fa fa-file-pdf-o"></span> '.$tut['t_name'], 'target="_blank"'); ?>
+                                <?= anchor($tut['t_pdf'], '<i class="fa fa-file-pdf-o"></i> '.$tut['t_name'], 'target="_blank"'); ?>
                             </div>
                         </div>
                     </aside>
