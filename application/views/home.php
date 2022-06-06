@@ -53,6 +53,13 @@
       </div>
     </div>
     <div class="item after">
+        <img src="assets/images/slider/5.jpg" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="slider5_h5">PROFOUNDLY</h5>
+        <p class="slider5_p">experienced in veneer innovation</p>
+      </div>
+    </div>
+    <div class="item after">
         <img src="assets/images/slider/3.jpg" alt="">
       <div class="carousel-caption d-none d-md-block" data-aos="fade-left">
         <h5 class="slider3_h5">GIVEN</h5>
@@ -64,13 +71,6 @@
       <div class="carousel-caption d-none d-md-block">
         <h5 class="slider4_h5">CRAFTED</h5>
         <p class="slider4_p">by experts</p>
-      </div>
-    </div>
-    <div class="item after">
-        <img src="assets/images/slider/5.jpg" alt="">
-      <div class="carousel-caption d-none d-md-block">
-        <h5 class="slider5_h5">PROFOUNDLY</h5>
-        <p class="slider5_p">experienced in veneer innovation</p>
       </div>
     </div>
     

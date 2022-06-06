@@ -10,7 +10,7 @@
                         <h2>Silvics Wood Veneers Pvt. Ltd.</h2>
                     </div>
                     <h4> We have <span>20 years</span> of experience working with the finest face veneers.</h4>
-                    <div class="text">Silvic Wood Veneers Pvt. Ltd. is Ahmedabad based organization working towards an excellence in the manufacture of decorative veneers. Our experience and knowledge made us experts in our craft and class.Our veneer face buyer's eye for the best selection of veneers makes us distinct between the ordinary and the exceptional. We are into this business for several years and have valuable clients including many well-known Distributors, Dealers, Architects, Interior Designers, Furniture Manufacturers (OEM), Contractors and Corporate Clients across India. </div>
+                    <div class="text">Silvics Wood Veneers Pvt. Ltd. is Ahmedabad based organization working towards an excellence in the manufacture of decorative veneers. Our experience and knowledge made us experts in our craft and class.Our veneer face buyer's eye for the best selection of veneers makes us distinct between the ordinary and the exceptional. We are into this business for several years and have valuable clients including many well-known Distributors, Dealers, Architects, Interior Designers, Furniture Manufacturers (OEM), Contractors and Corporate Clients across India. </div>
                     
                 </div>
             </div>
@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="text_p">
-                    They are the main cause of our existence in the market and we are thankful to them for putting us at the top of their list over our other competitors in terms of trust. Our carefully selected raw materials have allowed us to deliver superior quality products and consistent customer satisfaction over the years. The SKVICS brand has generated unparalleled goodwill and veritable market strength on the basis of our commitment to superlative quality.
+                    They are the main cause of our existence in the market and we are thankful to them for putting us at the top of their list over our other competitors in terms of trust. Our carefully selected raw materials have allowed us to deliver superior quality products and consistent customer satisfaction over the years. The SILVICS brand has generated unparalleled goodwill and veritable market strength on the basis of our commitment to superlative quality.
                 </div>
             </div>
         </div>

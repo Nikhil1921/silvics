@@ -163,8 +163,8 @@
                     <div class="inner-container clearfix">
                         <h1><?= $bread ?></h1>
                         <ul class="bread-crumb clearfix">
-                            <li><?= anchor('', 'Home') ?></li>
-                            <li><a href="javascript:;"><?= $bread ?></a></li>
+                            <li><?= anchor('', 'Home') ?> &nbsp;</li>
+                            <li><a href="javascript:;"> <?= $bread ?></a></li>
                         </ul>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
                                         </figure>
                                     </div>
                                     <div class="widget-content">
-                                        <div class="text">Silvic Wood Veneers Pvt. Ltd. is Ahmedabad based organization working towards an excellence in the manufacture of decorative veneers. Our experience and knowledge made us experts in our craft and class.</div>
+                                        <div class="text">Silvics Wood Veneers Pvt. Ltd. is Ahmedabad based organization working towards an excellence in the manufacture of decorative veneers. Our experience and knowledge made us experts in our craft and class.</div>
                                         <ul class="social-icon-two">
                                             <li><a href="<?= $this->config->item('facebook') ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                             <li><a href="<?= $this->config->item('twitter') ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>

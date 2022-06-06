@@ -8022,7 +8022,7 @@ transition: visibility .5s;
 	left: 0;
 	bottom: 0;
 	height: 3px;
-	width: 210px;
+	width: 116px;
 	background-color: #591609;
 	content: "";
 	display: inline-block;
@@ -8045,7 +8045,7 @@ transition: visibility .5s;
 	left: 0;
 	bottom: 0;
 	height: 3px;
-	width: 303px;
+	width: 351px;
 	background-color: #591609;
 	content: "";
 	display: inline-block;
@@ -8337,6 +8337,7 @@ th {
 
 .info-column p {
     text-align: justify;
+	font-size: 18px;
 }
 
 
