@@ -10,6 +10,7 @@
                         <li class="filter active" data-role="button" data-filter=".factory">Factory</li>
                         <li class="filter" data-role="button" data-filter=".office">Corporate Office & Display Gallery</li>
                         <li class="filter" data-role="button" data-filter=".videos">Videos</li>
+                        <li class="filter" data-role="button" data-filter=".brochure">Brochure Download</li>
                     </ul>
                 </div>
             </div>
@@ -58,6 +59,20 @@
                         </div>
                     </div>
                 <?php endif; endforeach ?>
+                <div class="project-block masonry-item brochure medium-column">
+                        <div class="inner-box">
+                        <div class="sidebar-side">
+                            <aside class="sidebar service-sidebar">
+                                <div class="sidebar-widget download-links">
+                                <div class="link-box">
+                                    <a href="assets/images/Silvics-Brochure.pdf" target="_blank">
+                                    <span class="fa fa-file-pdf-o"></span> Download Brochure</a>
+                                </div>
+                                </div>
+                            </aside>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
