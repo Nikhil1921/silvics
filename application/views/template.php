@@ -9,7 +9,7 @@
         <?= link_tag('assets/images/favicon.png', 'shortcut icon', 'image/png') ?>
         <?= link_tag('assets/images/favicon.png', 'icon', 'image/png') ?>
         <?= link_tag('assets/css/bootstrap.css', 'stylesheet', 'text/css') ?>
-        <?= link_tag('assets/css/style.css?v=1.0.8', 'stylesheet', 'text/css') ?>
+        <?= link_tag('assets/css/style.css?v=1.0.9', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/responsive.css', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/color-themes/default-theme.css', 'stylesheet', 'text/css') ?>
 
@@ -25,7 +25,7 @@
                         <div class="inner-container clearfix">
                             <div class="top-left top-logo">
                                 <div>
-                                    <?= anchor('', img('assets/images/logo.png')); ?>
+                                    <?= anchor('', img('assets/images/logo.svg')); ?>
                                 </div>
                                 <div class="right-email">
                                     <ul class="clearfix">
@@ -109,7 +109,7 @@
                     <div class="auto-container clearfix">
                         <!--Logo-->
                         <div class="logo pull-left">
-                            <?= anchor('', img('assets/images/logo.png'), 'class="img-responsive"'); ?>
+                            <?= anchor('', img('assets/images/logo.svg'), 'class="img-responsive"'); ?>
                         </div>
                         <!--Right Col-->
                         <div class="right-col pull-right">
@@ -182,7 +182,7 @@
                                 <div class="footer-widget about-widget">
                                     <div class="footer-logo">
                                         <figure>
-                                            <?= anchor('', img('assets/images/logo.png')); ?>
+                                            <?= anchor('', img('assets/images/logo.svg')); ?>
                                         </figure>
                                     </div>
                                     <div class="widget-content">

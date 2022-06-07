@@ -4644,12 +4644,13 @@ img{
 
 .main-footer .footer-logo{
 	position:relative;	
-	margin-bottom: 30px;
+	margin-bottom: 12px;
 }
 
 .main-footer .footer-logo img{
 	display:block;
 	max-width:100%;	
+	height: 104px;
 }
 
 .main-footer .about-widget .text{
@@ -7981,38 +7982,27 @@ transition: visibility .5s;
 }
 
 .map_head_left h2 {
-    color: #222222;
+    font-size: 33px;
+    border-bottom: 4px solid #591609;
+    width: fit-content;
+	color: #222222;
+	margin-bottom: 40px;
 }
 
-.map_head_left h2:before {
-    position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 3px;
-	width: 41%;
-	background-color: #591609;
-	content: "";
-	display: inline-block;
-}
 
 .map_head_right {
     margin-bottom: 20px;
 }
 
 .map_head_right h2 {
-    color: #222222;
+    font-size: 33px;
+    border-bottom: 4px solid #591609;
+    width: fit-content;
+	color: #222222;
+	margin-bottom: 40px;
 }
 
-.map_head_right h2:before {
-    position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 3px;
-	width: 49%;
-	background-color: #591609;
-	content: "";
-	display: inline-block;
-}
+
 
 .product_h3 {
     font-size: 22px !important;
@@ -8111,6 +8101,14 @@ th {
 .tbl_head {
     color: #591609;
     font-size: 25px;
+    font-family: 'Calibri';
+    font-weight: bold;
+}
+
+tbody {
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .font-size {
