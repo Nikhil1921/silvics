@@ -60,7 +60,7 @@
       </div>
     </div>
     <div class="item after">
-        <img src="assets/images/slider/3.jpg" alt="">
+        <img src="assets/images/slider/slider.jpg" alt="">
       <div class="carousel-caption d-none d-md-block" data-aos="fade-left">
         <h5 class="slider3_h5">GIVEN</h5>
         <p class="slider3_p">by nature</p>

@@ -501,7 +501,7 @@ img{
 	font-size:16px;
 	line-height: 30px;
 	color:#ffffff;
-	padding:20px 0px;
+	padding:37px 0px;
 	font-weight:400;
 }
 
@@ -1213,7 +1213,7 @@ img{
 .header-style-two .header-top .top-right{
 	position: relative;
 	float: right;
-	padding: 20px 0;
+	padding: 37px 0;
 	z-index: 2;
 }
 
@@ -1466,6 +1466,7 @@ img{
 	color: #777777;
 	font-weight: 400;
 	margin-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .sec-title h2{
@@ -6386,6 +6387,7 @@ a.ui-button:active, .ui-button:active,
 	letter-spacing:	1px;
 	display: block;
 	margin-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .product-details .basic-details .item-price del{
@@ -8029,6 +8031,7 @@ transition: visibility .5s;
 
 .title_product {
     font-size: 22px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .tit_product {
@@ -8734,4 +8737,12 @@ th {
     width: 100%;
     display: flex;
 	margin-top: 13px;
+}
+
+.top-logo a img {
+    height: 104px;
+}
+
+.right-email {
+    padding-left: 20px;
 }

@@ -9,7 +9,7 @@
         <?= link_tag('assets/images/favicon.png', 'shortcut icon', 'image/png') ?>
         <?= link_tag('assets/images/favicon.png', 'icon', 'image/png') ?>
         <?= link_tag('assets/css/bootstrap.css', 'stylesheet', 'text/css') ?>
-        <?= link_tag('assets/css/style.css?v=1.0.6', 'stylesheet', 'text/css') ?>
+        <?= link_tag('assets/css/style.css?v=1.0.8', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/responsive.css', 'stylesheet', 'text/css') ?>
         <?= link_tag('assets/css/color-themes/default-theme.css', 'stylesheet', 'text/css') ?>
 
@@ -23,17 +23,17 @@
                 <div class="header-top">
                     <div class="auto-container">
                         <div class="inner-container clearfix">
-                            <div class="top-left">
+                            <div class="top-left top-logo">
                                 <div>
                                     <?= anchor('', img('assets/images/logo.png')); ?>
                                 </div>
-                                <div>
+                                <div class="right-email">
                                     <ul class="clearfix">
                                         <li><a href="mailto:<?= $this->config->item('email') ?>"><i class="fa fa-envelope-o clr_white"></i> <?= $this->config->item('email') ?></a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="top-right">
+                            <div class="top-right top-social">
                                 <ul class="social-icon-one">
                                     <li><a href="<?= $this->config->item('facebook') ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="<?= $this->config->item('twitter') ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -54,7 +54,7 @@
                             <!--Logo Box-->
                             <div class="logo-box display_none">
                                 <div class="logo">
-                                    <?= anchor('', img('assets/images/logo.png')); ?>
+                                    <?= anchor('', img('assets/images/logo.svg')); ?>
                                 </div>
                             </div>
 
