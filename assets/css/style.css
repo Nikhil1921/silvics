@@ -1469,25 +1469,15 @@ img{
 }
 
 .sec-title h2{
-	position: relative;
-	display: block;
 	font-size: 33px;
-	line-height: 1.2em;
+    border-bottom: 4px solid #591609;
+    width: fit-content;
 	color: #222222;
-	font-weight: 700;
-	padding-bottom: 25px;
+	margin-bottom: 40px;
+	
 }
 
-.sec-title h2:before{
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 3px;
-	width: 97%;
-	background-color: #591609;
-	content: "";
-	display: inline-block;
-}
+
 
 .sec-title .text{
 	display: block;
@@ -1659,6 +1649,7 @@ img{
 	font-weight: 400;
 	margin-bottom: 30px;
 	text-align: justify;
+	font-family: 'Raleway', sans-serif;
 }
 
 .about-us .content-column .link-box{
@@ -3701,6 +3692,7 @@ img{
     -o-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     transition: all 300ms ease;
+	font-family: 'Raleway', sans-serif;
 }
 
 .appointment-form .form-group textarea{
@@ -8075,25 +8067,14 @@ transition: visibility .5s;
 
 
 .review {
-    position: relative;
-	display: block;
-	font-size: 36px;
-	line-height: 1.2em;
+    font-size: 40px;
+    border-bottom: 4px solid #591609;
+    width: fit-content;
 	color: #222222;
-	font-weight: 700;
-	padding-bottom: 25px;
+	margin-bottom: 40px;
 }
 
-.review:before {
-    position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 3px;
-	width: 212px;
-	background-color: #591609;
-	content: "";
-	display: inline-block;
-}
+
 
 .sec-titlel {
     margin-bottom: 15px;
@@ -8103,6 +8084,12 @@ transition: visibility .5s;
     list-style: disc;
 } */
 
+.text-center {
+    font-family: 'Raleway', sans-serif;
+}
+.list-style {
+    font-family: 'Raleway', sans-serif;
+}
 .text1 {
 	position: relative;
 	font-size: 16px;
@@ -8111,6 +8098,7 @@ transition: visibility .5s;
 	font-weight: 400;
 	margin-bottom: 10px;
 	text-align: justify;
+	font-family: 'Raleway', sans-serif;
 }
 
 th {
